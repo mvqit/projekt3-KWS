@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  </head>
+
+    <title>Projekt3 - Miloš Vymazal</title>
+  </head>
+  <body>
+
+      <!-- menu -->
+      <header class="">
+        <nav>
+          <ul>
+            <li>
+              <a href="#atlas">Atlasy rostlin</a>
+            </li>
+            <li>
+              <a href="#encyclopedia">Encyklopedie rostlin</a>
+            </li>
+            <li>
+              <a href="#other">Další projekty</a>
+            </li>
+            <li>
+              <a href="#form">Formulář - povinná část</a>
+            </li>
+            <li>
+              <a href="#comment">Poznámky k projektu</a>
+            </li>
+
+          </ul>
+
+          <div class="icon-box">
+            <!-- Rounded switch -->
+            <label class="switch" title="Dark / Light">
+               <input type="checkbox" />
+               <span class="slider round"></span>
+            </label>
+            <span class="icon-menu"></span>            
+            <a href="#bottom"><span class="icon-arrow-down" id="icon-down"></span></a>
+          </div>
+       </nav>
+
+        <!-- hero section -->
+        <section class="hero-section" id="top">
+          <h1 class="hero-text">
+            Projekt 3<br>
+            HTML, CSS, Javascript           
+          </h1>
+        </section>
+      </header>
+
+      <!-- our webs -->
+      <div class="main">
+      <section class="our-webs-section">
+        <article id="atlas">
+          <hgroup class="text-container column1">
+            <h2>Atlasy rostlin - weby o rostlinách členěné podle témat</h2>
+            <p>
+              Provozuji weby, které obsahují <strong>fotografie rostlin</strong>, <strong>synonyma</strong> a řadu dalších údajů. Jedná se vlastně o internetové <strong>atlasy rostlin</strong>, které slouží jako zásobníky pro encyklopedie viz níže. Vzhledem k tomu, že aktualní databáze obsahuje více než 150 tisíc
+              pojmenovaných fotografií vzniklo postupně několik tématických verzí, které umožnují hledání podle barev květů, doby kvetení a dalších parametrů.
+            </p>
+            <small>Podrobnosti o konkrétním projektu zjistíte po kliknutí na náhled stránky</small>.
+          </hgroup>
+
+          <div class="image-container column4" id="flora">
+             <img src="./images/flora-cs.jpg" alt="Obrázek Flora ČR a Slovenska" title="Flora ČR a Slovenska" />
+          </div>
+          <div class="image-container column4" id="rostliny">
+             <img src="./images/rostliny-cs.jpg" alt="Obrázek Okrasné rostliny zahradní a parkové"  title="Okrasné rostliny zahradní a parkové" />
+          </div>
+          <div class="image-container column4"  id="encyklopedie">
+             <img src="./images/encyklopedie-cs.jpg" alt="Rostliny zahraniční a přenosné"  title="Rostliny zahraniční a přenosné"/>
+          </div>
+          <div class="image-container column4" id="pestujeme">
+             <img src="./images/pestujeme-cs.jpg" alt="Užitkové rostliny"   title="Užitkové rostliny" />
+          </div>
+
+          <figure>
+            <div class="image-container column2" id="webImage">
+              <a href="https://www.flora-cs.com/"  title="Flora ČR a Slovenska"><img src="./images/flora-cs.jpg" alt="Užitkové rostliny" /></a>
+            </div>
+
+            <figcaption class="text-container light column2" id="webText">
+              <h3>Flóra ČR a Slovenska</h3>
+              <h5><a href="https://www.flora-cs.com/">www.flora-cs.com</a></h5>
+              <p>Tento amatérský botanický projekt vzniknul díky Miroslavu Pidovi, který mě před roky oslovil s nápadem vytvořit botanický atlas.</p>
+              <p>V současnosti databáze obsahuje kompletní seznam rostlin, které rostou v přírodě u nás a na Slovensku.</p>
+              <h4>Web umožňuje hledání podle:</h4>
+              <ul>
+                <li><a href="https://www.flora-cs.com/sff/cz/flowcolw/">barev květů</a></li>
+                <li><a href="https://www.flora-cs.com/sff/cz/flowtime4/">doby kvetení</a></li>
+                <li><a href="https://www.flora-cs.com/sff/cz/flownum5/">typu květů</a></li>
+              </ul>
+              
+              <p>Projekt Flora-cs je zaměřený zejména na širou laickou veřejnost, ovšem díky možnostem vyhledávání v kompletním seznamu všech planě rostoucích druhů rostlin v ČR se v něm může orientovat i odborná botanická veřejnost. </p>
+              <p>Databáze taxonů byla vyhotovena ze Seznamu druhů rostlin od J. Danihelky a & (2012), seznam a fotografie druhů jsou neustále doplňovány a průběžně se aktualizují.</p>
+              <p>Na stránkách najdete i rostliny ze Slovenska, pro snadné odlišení od druhů, které v ČR nerostou, je pak u příspěvků vyobrazena vlaječka SR.</p>
+
+              <h4>Statistika</h4>
+              <ul>
+                <li>Aktivní autoři: 68</li>
+                <li>Počet druhů: > 5 000</li>
+                <li>Počet textových příspěvků: 8 500</li>
+                <li>Počet fotografií: 42 000</li>
+              </ul>  
+
+
+
+
+            </figcaption>
+          </figure>
+        </article>
+
+        <article id="encyclopedia">
+          <hgroup class="text-container light column1">
+            <h2>Encyklopedie rostlin</h2>
+            <p>Výše uvedené atlasy slouží jako zásobníky pro encyklopedie. Z fotografií a textů se postupně provádí výběr. Nejlepší podklady jsou použity pro encyklopedie rostlin. Projekt obsahuje verze v češtině, slovenštině, angličtině a němčině. Každá z těchto stránek má samostatný obsah, ale využívá společnou databázi.</p>
+          </hgroup>
+
+          <figure>
+            <div class="image-container column2">
+              <img src="./images/all-webs.jpg" alt="Ukázky dalších webů" title="Ukázky dalších webů" />
+            </div>
+
+            <figcaption class="text-container  column2">
+              <h3>Přehled webů</h3>
+              <h4>Encyklopedie</h4>
+              <ul>
+                <li><a href="https://www.zahrada-cs.com/">www.zahrada-cs.com</a> - česká verze</li>
+                <li><a href="https://www.zahrada-sk.com">www.zahrada-sk.com</a> - slovenská verze</li>
+                <li><a href="https://www.garten-de.com">www.garten-de.com</a> - německá verze</li>
+                <li><a href="https://www.garten-en.com">www.garden-en.com</a> - anglická verze</li>
+                <li><a href="https://www.ogrod-pl.com">www.ogrod-pl.com</a> - polská verze</li>
+              </ul>
+
+              <h4>Ukázka vyhledávacího formuláře pro různé jazykové verze:</h4>
+              <p>
+
+              <a href="https://www.zahrada-cs.com/enc/cz/stromy-listnat%C3%A9-S/">[cz] listnaté stromy</a>, 
+              <a href="https://www.garden-en.com/enc/en/deciduous-trees-S//">[en] Deciduous Trees</a>, 
+              <a href="https://www.zahrada-sk.com/enc/sk/stromy-listnat%C3%A9-S/">[sk] stromy listnaté</a>, 
+              <a href="https://www.garten-de.com/enc/de/laubgeh%C3%B6lze-b%C3%A4ume-S/">[de] Laubgehölze Bäume</a>, 
+              <a href="https://www.ogrod-pl.com/enc/pl/drzewa-li%C5%9Bciaste-S/">[pl] drzewa liściaste</a>, 
+              </p>
+
+            
+
+              <h4>Další české verze</h4>
+              <ul>
+                <li><a href="https://www.garten.cz/">www.garten.cz</a> - česká verze orientovaná na články</li>
+                <li><a href="https://www.profizahrada.cz">www.profizahrada.com</a> - jiná varinta s jiným barevným provedením</li>
+              </ul>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article id="other">
+          <hgroup class="text-container column1">
+            <h2>Další projekty</h2>
+            <p>Web <a href="https://www.tcm-cs.com/forum/vf/cz/152-dvan%C3%A1ct-%C5%99%C3%A1dn%C3%BDch-drah/">Tcm-cs.com</a> vznikl před roky jako pomůcka pro studenty TČM. Pro tento web jsem nakreslil tisíce obrázků. Ukázky je možné najít na <a href="https://www.shutterstock.com/cs/g/Milos+Vymazal">Shutterstock</a>, <a href="https://www.dreamstime.com/tcmcscom_info">Dreamstime</a> a <a href="https://stock.adobe.com/contributor/206591354/milos-vymazal">Adobe Stock</a>.<p>
+            <p>Vydali jsme i knížky <a href="https://www.otis-tarda.cz/">Drop velký na Znojemsku</a>. K této knížce jsem dělal sazbu i grafiku.</p>
+          </hgroup>
+
+          <div class="image-container light column2">
+            <a href="https://www.tcm-cs.com/forum/vf/cz/4-lu-dr%C3%A1ha-plic-a-z/" title="Tradiční čínská medicína"><img src="./images/tcm-cs.jpg" alt="TĆM - tradiční čínská medicína" /></a>
+          </div>
+          <div class="image-container light column2">
+            <a href="https://www.otis-tarda.cz/" title="Drop velký na Znojemsku"><img src="./images/otis-tarda.jpg" alt="Drop velký na Znojemsku" /></a>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <article id="form">
+        <div class="text-container column1">
+          <h2>Formulář</h2>   
+          <form action="./index.html">
+          <legend>Testování shody hesel (povinná část)</legend>
+          <input type="text" placeholder="Zadejte uživatelské jméno (min. 5 znaků a-z,0-9,_) " id="name" name="name" autocomplete="no" />
+          <input type="password" placeholder="Zadejte heslo (min. 6 znaků)" id="password1" name="password" autocomplete="no" />
+          <input type="password" placeholder="Zadejte stejné heslo pro kontrolu" id="password2" autocomplete="no" />
+          <button type="submit">Přihlášení</button>
+          <p class='notify'>Kontrola vyplnění formuláře</p>  
+        </form> 
+        
+      </div>  
+        <article>       
+      </section>
+      
+      <section id="comment">
+        <article>
+          <div class="text-container column1">
+          <h2>Poznámky k projektu</h2>
+          <p>Pro projekt jsem použil náhledy webů, které provozuji. Rád bych je časem upravil. Chyběly mi informace o nových trendech, které jsem si i díky kurzu částečně doplnil. V projektu jsem se snažil využít maximálně to, co jsem se naučil. Zde uvádím několik poznámek k tomu, co jsem použil a jak jsem uvažoval a postupoval.</p>
+          <p>Jako jednotky jsem použil pro styly jsem <strong>rem</strong>. Vytvořil jsem si <strong>sadu fontů pro ikony</strong>, které jsem uložil do samostaného souboru. V javascriptu jsem použil jak objektový přístup (<strong>webs.js</strong>), tak klasický (<strong>script.js</strong>). Snažil jsem se použít maximálně různé tagy a styly. Pro usnadnění kontroly jsem přidal target="_blank" u všech odkazů v javascriptu </p>
+          <ol>
+            <li>Menu</li>
+            <ol>
+               <li>Menu jsem udělal fixované</li>
+               <li>Přidal jsem navíc ikonku <span class="icon-arrow-down"></span> pro přesun do spodní části stránky. Ikona se zobrazuje trvale, ale nebyl by problém ji schovávat podobně jako tu v bodě 4. </li>
+               <li>Ikonku pro mobily jsem vložil rovněž jako font <span class="icon-menu"></span></li>
+               <li>Ikonu <span class="icon-arrow-up"></span> zobrazuji při 800 px </li>
+            </ol>
+            <li>Atlas rostlin</li> 
+            <ol>
+              <li>Jako obrázky do této sekce jsem použil náhledy webů. Na internetu pak použiji zmenšené soubory, ale tady pro zjednodušení používám stejné soubory.</li>
+              <li>Najetím na obrázek se <strong>obrázky zvětšují a zmenšují</strong> dle zadání. <strong>Klepnutím</strong> se zobrazí větší obrázek a do stránky se vloží <b>text s informací o obrázku</b>. </li>
+              <li>Obě barevná provedení Dark / Light umožňují změnu pozadí podle vybraných webů.</li>
+            </ol>
+            <li>Encyklopedie rostlin a Další projekty</li> 
+            <ol>
+              <li>Ukázka několika dalších webů</li>
+              <li>U odkazů je po najetí použito <strong>stínování textu</strong></li>
+            </ol>
+            <li>Formulář</li>  
+            <ol>
+              <li>Do formuláře jsem vložil tagy pro jméno uživatele, zadání hesla a jeho kontrolu</li>
+              <li>Tlačítko je před vyplněním všech polí zakázáno</li>
+              <li>Při vyplňování se kontrolují následující údaje:</li>
+              <ol>
+                <li>U jména jsem <strong>omezil skupinu znaků</strong>, minimálmí délka je 5 znaků</li>
+                <li>U prvního hesla kontroluji počet znaků</li>
+                <li>U druhého hesla kontroluji shodu s prvním heslem</li>
+                <li>Pokud jsou splněny všechny podmínky dojde k <strong>povolení tlačítka</strong></li>
+              </ol>
+              <li>Je mi jasné, že se nejedná o plnohodnotné bezpečné řešení. Další kontrolu by bylo nutné udělat na straně serveru. Tady jde spíše o pomůcku pro uživatele při vyplňování formuláře</li>
+            </ol>
+            
+            <li>Poznámky k projektu</li>
+            <ol>
+              <li>Několik mých postřehů, <strong>ukázka číslovaného seznamu</strong> a <strong>použití fontů ikon</strong> v textu</li>
+            </ol>
+     
+            <li>Poznámky ke kurzu</li>
+            <ol>
+            <li><strong>Kurz se mi líbil</strong>. Vysoce hodnotím lektory Viliama Vatehu a Davida Šetka, ale i ostatní byli pro mě přínosem. Weby provozuji od roku 2001 a jsem víceméně samouk. V oblasti css a javascriptu mně ujel vlak, proto jsem byl rád za tento kurz.</li>
+            <li>Zvažoval jsem jako další kurz <strong>Javu</strong>, protože bych rád dodělal aplikaci pro encyklopedii rostlin. Bohužel vzhledem k tomu, že ty moje weby moc nevydělávají, musím to odložit na jindy. Potřeboval bych asi spíše nyní dostudovat nové trendy v PHP.</li>
+            <li>Uvítal bych od Engeta pomoc při dojednání nějaké <strong>externí spolupráce na nějakém menším projektu</strong> jako přivýdělek. Připravím cca do 1 měsíce prezentaci na doméně <a href="https://www.vymazal.net/">www.vymazal.net</a>. Zde bych rád umístil i část z tohoto projektu.</li>
+            <li>Hodila by se mi i <strong>pomoc s prodejem reklamy</strong>. Nejsem v tohle směru úspěšný. I když si myslím, že na českém intenetu není rozsáhlejší projekt s tématikou rostlin.</li>
+            <li>Budu rád, za <strong>připomínky</strong>, co bych měl zlepšit v oblasti designu, SEO i marketingu. Rád bych byl úspěšný s weby o rostlinách. Ve svém věku už nehledám práci ve velké firmě. Spíše bych měl zájem o <strong>externí dlouhodobou spolupráci</strong> na <strong>menších projektech</strong> a správě webů a serverů pro doplnění.</li>
+            <li>Dále bych rád na botanickém webu <a href="https://www.flora-cs.com/">www.flora-cs.com</a> vypnul reklamu. Hledám nějakého <strong>sponzora</strong>, který by mohl poskytnout cca 5 000 Kč + DPH / měsíc. Rád bych tu reklamu tam úplně vypnul, ale nedaří se mi to zafinancovat.</li>
+            </ol>
+        
+          </ol>
+       
+        </div>  
+        <article>       
+      </section>
+
+      <footer id="bottom">
+        <div class="text-container">
+          <p>Autor: Miloš Vymazal, 3.4. 2024</p>
+          <small>Časem, když dá Bůh a čas dovolí :), bude upravená část z tohoto projektu dostupná na  <a href="https://www.vymazal.net">www.vymazal.net</a><small>
+        </div>
+        <a href="#top"><span class="icon-arrow-up" id="icon-up"></span></a>
+      </footer>
+     
+    </div>
+
+    <script src="./webs.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
